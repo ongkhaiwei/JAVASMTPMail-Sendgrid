@@ -1,0 +1,5 @@
+Use 'mvn clean package assembly:single' to generate jar file.
+
+Dockerfile used to package the jar file to container image
+
+Update configmap.yaml with correct APIKEY from sendgrid
