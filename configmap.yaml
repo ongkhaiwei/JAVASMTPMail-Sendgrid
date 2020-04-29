@@ -1,0 +1,14 @@
+kind: ConfigMap 
+apiVersion: v1 
+metadata:
+  name: example-configmap 
+data:
+  config.properties: |
+    SMTP_SERVER=smtp.sendgrid.net
+    USERNAME=apikey
+    PASSWORD=YOUR_API_KEY_FROM_SENDGRID
+    EMAIL_FROM=FROM_EMAIL
+    EMAIL_TO=TO_EMAIL
+    EMAIL_TO_CC=
+    EMAIL_SUBJECT="Test Send Email via SMTP"
+    EMAIL_TEXT="Hello Java Mail \n ABC123"
